@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ffC3/5OsbWI7SYAldGymQcXGeyHMDKlDQejrOT87NKNv+6Fj306cRy/6ICZ9N7BlCWiyyXVi9zuubO3kpMSfGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\m96ro\\source\\repos\\WebAppDocker2\\WebAppDocker2\\WebAppDocker2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m96ro\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
