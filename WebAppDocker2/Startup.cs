@@ -32,7 +32,12 @@ namespace WebAppDocker2
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("<div style='text-align:center'><h1>Automatic deployment</h1></div>");
+                    await context.Response.WriteAsync(@"
+                        <div style='text-align:center'>
+                            <h1>First level</h1>
+                            <h2>Second level</h2>
+                            <h3>Third level</h3>
+                        </div>");
                 });
             });
         }
