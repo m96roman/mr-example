@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -32,12 +28,8 @@ namespace WebAppDocker2
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync(@"
-                        <div style='text-align:center'>
-                            <h1>First level</h1>
-                            <h2>Second level</h2>
-                            <h3>Third level</h3>
-                        </div>");
+                    context.Response.ContentType = "text/html";
+                    await context.Response.SendFileAsync("Dockerfile");
                 });
             });
         }
