@@ -29,7 +29,7 @@ namespace WebAppDocker2
                 endpoints.MapGet("/", async context =>
                 {
                     context.Response.ContentType = "text/html";
-                    await context.Response.SendFileAsync("Dockerfile");
+                    await context.Response.SendFileAsync("Index.html");
                 });
             });
         }
